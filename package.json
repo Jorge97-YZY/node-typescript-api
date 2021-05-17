@@ -1,0 +1,28 @@
+{
+  "name": "node-tyscript-api",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo\"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "repository": {
+    "url": "https://github.com/Jorge97-YZY/node-typescript-api.git",
+    "type": "git"
+  },
+  "author": "Jorge Arsénio Manuel",
+  "license": "MIT",
+  "dependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^15.3.0",
+    "module-alias": "^2.2.2",
+    "typescript": "^4.2.4"
+  }
+}
